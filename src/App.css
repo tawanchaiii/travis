@@ -1,33 +1,88 @@
-.App {
-  text-align: center;
+/**
+ * Copyright 2017 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ @import url('https://fonts.googleapis.com/css?family=Kanit');
+ .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width: 985px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+ background-repeat: no-repeat;
+ padding-right: 0 !important;
+ font-family: 'Kanit', sans-serif;
+
+}
+body{
+  font-family: 'Kanit', sans-serif;
+}
+.mx_auto {
+  position: auto;
+ /*top: 0;
+  left: 0;**/
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  /*color: black;*/
+  font-family: 'Kanit', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.react-switch {
+  vertical-align: middle;
+  margin-left: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table80{
+  width: 80%;
 }
+
+.table60{
+  width: 60%;
+}
+
+.ex1_L {
+  margin: 30px;
+  margin-left: 300px;
+}
+.ex1{
+  margin-left: 180px;
+}
+.ex2{
+  margin-left: 50px;
+}
+
+.app {
+  font-family: 'Kanit', sans-serif;
+}
+.validated{
+  font-family: 'Kanit', sans-serif;
+}
+
+
