@@ -6,7 +6,15 @@
     "firebase": "^6.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "bootstrap": "^4.3.1",
+    "mdbreact": "^4.13.0",
+    "raven-js": "^3.27.0",
+    "react-datetime-picker": "^2.4.0",
+    "react-firebaseui": "^3.1.2",
+    "react-switch": "^5.0.0",
+    "reactstrap": "^8.0.0",
+    "xlsx": "^0.14.3"
   },
   "scripts": {
     "start": "react-scripts start",
